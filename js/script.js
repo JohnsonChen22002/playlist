@@ -33,7 +33,7 @@ var myPlayList = [{
 // DOCUMENT READY FUNCTION
 $(document).ready(function() {
 	$('button').click(function() {
-		clearList(); 
+		clearList();
 		addSong();
 		displayList();
 	});
@@ -61,3 +61,9 @@ function addSong() {
 
 
 }
+
+var titleInput = $("#title").val();
+var artistInput = $("#artist").val();
+var mp3Input = $("#mp3").val();
+var imageInput = $("#image").val();
+mySong.push({ titleInput, artistInput, mp3Input, imageInput });
