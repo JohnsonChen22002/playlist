@@ -1,11 +1,11 @@
 // quick fix for Cloud9 warning:
 /* global $ */
-var mySong = {
-	"title": "24K Magic",
-	"artist": "Bruno Mars",
-	"mp3-url": "https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
-	"image-url": "https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
-}
+// var mySong = {
+// 	"title": "24K Magic",
+// 	"artist": "Bruno Mars",
+// 	"mp3-url": "https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
+// 	"image-url": "https://images-na.ssl-images-amazon.com/images/I/71Gr9aCHQfL._SY355_.jpg",
+// }
 
 var myPlayList = [{
 		"title": "24K Magic",
@@ -62,8 +62,16 @@ function addSong() {
 
 }
 
-var titleInput = $("#title").val();
-var artistInput = $("#artist").val();
-var mp3Input = $("#mp3").val();
-var imageInput = $("#image").val();
-mySong.push({ titleInput, artistInput, mp3Input, imageInput });
+
+// var titleInput = $("#title").val();
+// var artistInput = $("#artist").val();
+// var mp3Input = $("#mp3").val();
+// var imageInput = $("#image").val();
+
+// var mySong = {
+// 	"title": titleInput,
+// 	"artist": artistInput,
+// 	"mp3-url": mp3Input,
+// 	"image-url": imageInput,
+// }
+// mySong.push({ titleInput, artistInput, mp3Input, imageInput });
